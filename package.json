@@ -1,0 +1,20 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "Assignment 1 for backend engineering launchpad",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "tap test/*.js --disable-coverage"
+  },
+  "author": "Airtribe",
+  "license": "ISC",
+  "devDependencies": {
+    "supertest": "^6.3.4",
+    "tap": "^18.7.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
